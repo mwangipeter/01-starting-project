@@ -4,6 +4,7 @@ import { CORE_CONCEPTS } from "./data";
 import Header from "./components/Header";
 import CoreConcept from "./components/CoreConcepts";
 import TabButton from "./components/TabButton";
+import TestComponent from "./components/TestComponent";
 import { useState } from "react";
 function App() {
 const [content, setContent] = useState("Initial Content");
@@ -36,6 +37,7 @@ const [content, setContent] = useState("Initial Content");
               description={CORE_CONCEPTS[3].description}
               image={CORE_CONCEPTS[3].image}
             />
+            <TestComponent></TestComponent>
           </ul>
         </section>
         <section id="examples">
