@@ -5,7 +5,7 @@
 //     </li>
 //   );
 // }
-export default function TabButton({ children, onClick, isSelected }) {
+export default function TabButton({ children, onClick, isSelected, hey }) {
   
     return (
       <li>
